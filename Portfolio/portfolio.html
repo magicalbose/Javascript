@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href= "#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+<!--About Tigers and Lions-->    
+    <h2>Interesting Information</h2>
+    <img src="./tiger.jpg" alt="TigerImg" width="300" height="300"/>
+    <br>
+    <button onclick="tiger();">Read More!</button>
+    <p id="tiger-info"></p>
+    <img src="./lionew.jpg" alt="LionImg" width="300" height="300"/>
+    <br>
+    <button onclick="lion();">Read more!</button>
+    <p id="lion-info"></p>
+
+<!--Contact-->
+    <h2>Contact Me!</h2>
+    <iframe width="800" height="400" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=Hyderabad,%20India&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+
+    <p>Phone: +91 9934 678 832</p>
+    <p>Email: alex@gmail.com</p>
+    <p>Address: Hyderabad, India</p>
+</body>
+<script src="portfolio.js"></script>
+</html>
