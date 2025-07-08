@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+nav {
+    /* This colour is changeable */
+    background-color: lightskyblue;
+padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    background-color:  rgba(43, 165, 222, 0.656);
+}
