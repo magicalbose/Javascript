@@ -1,0 +1,40 @@
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: deeppink;
+}
+
+.header2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: hotpink;
+}
+
+.button{
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  padding: 3px 8px;
+}
+.button3 {
+    background-color: rgb(74, 88, 212);
+}
+
+.write {
+   
+    color: maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.in {
+    border-color: rgb(235, 102, 102);
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rem {
+    background-color: crimson;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  padding: 3px 8px;
+}
+
